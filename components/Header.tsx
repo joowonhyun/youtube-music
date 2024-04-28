@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import { ComponentProps } from "@/components/type";
+import { ComponentProps } from "@/types";
 import Image from "next/image";
 import UserIcon from "@/components/UserIcon";
 import Logo from "@/components/elements/Logo";

@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { PlayListNavProps } from "../type";
+import { PlayListNavProps } from "../../types";
 import { IoMdPlayCircle } from "react-icons/io";
 
 const PlayListNav = ({ playList }: PlayListNavProps) => {

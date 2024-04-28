@@ -1,10 +1,15 @@
 import React from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { cn } from "@/lib/utils";
 
-const UserIcon = () => {
+const UserIcon = ({ size = "sm" }) => {
   return (
-    <Avatar>
-      <AvatarImage src="https://github.com/shadcn.png" />
+    <Avatar
+      className={cn(
+        "w-[26px] h-[26px]" && size === "lg" && "w-[56px] h-[56px] "
+      )}
+    >
+      <AvatarImage src="https://avatars.githubusercontent.com/u/78545341?v=4" />
       <AvatarFallback>CN</AvatarFallback>
     </Avatar>
   );

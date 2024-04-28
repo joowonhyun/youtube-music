@@ -3,7 +3,7 @@ import React from "react";
 
 interface IconProps {
   icon: React.ReactNode;
-  onClickIcon: () => void;
+  onClickIcon?: () => void;
 }
 const IconButton = ({ icon, onClickIcon }: IconProps) => {
   const onClickMenu = () => {};

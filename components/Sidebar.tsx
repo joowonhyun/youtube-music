@@ -1,5 +1,5 @@
 import React from "react";
-import { ComponentProps } from "./type";
+import { ComponentProps } from "../types";
 import Logo from "./elements/Logo";
 import Navigator from "./elements/Navigator";
 
