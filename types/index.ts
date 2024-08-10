@@ -2,6 +2,12 @@ export interface ComponentProps {
   children: React.ReactNode;
 }
 
+export interface PlayListPageProps {
+  searchParams: {
+    list: string,
+  }
+}
+
 export interface PlayList {
   id: number;
   owner: string;
