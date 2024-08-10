@@ -28,17 +28,27 @@ export interface PlayListNavProps {
   playList: PlayList;
 }
 
-export interface PlayListCarouselProps {
-  title : string;
+export interface BaseCarouselProps {
+  title: string;
   subTitle?: string;
   Thumbnail?: React.ReactNode;
+}
+
+export interface PlayListCarouselProps extends BaseCarouselProps {
   playListArray?: PlayList[];
 }
 
+export interface SongListCarouselProps extends BaseCarouselProps {
+  songListTop10: TopSong[];
+}
 export interface Channel {
   id: number;
   subscribers: number;
   name: string;
   songList: Song[];
   playlistArray: PlayList[];
+}
+
+export interface SongCardProps {
+  song: TopSong;
 }
