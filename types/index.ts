@@ -41,6 +41,9 @@ export interface PlayListCarouselProps extends BaseCarouselProps {
 export interface SongListCarouselProps extends BaseCarouselProps {
   songListTop10: TopSong[];
 }
+export interface GenreListCarouselProps extends BaseCarouselProps {
+  genreList: string[];
+}
 export interface Channel {
   id: number;
   subscribers: number;
@@ -51,4 +54,8 @@ export interface Channel {
 
 export interface SongCardProps {
   song: TopSong;
+}
+
+export interface GenrecardProps {
+  genre : string
 }
