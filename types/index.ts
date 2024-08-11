@@ -4,8 +4,8 @@ export interface ComponentProps {
 
 export interface PlayListPageProps {
   searchParams: {
-    list: string,
-  }
+    list: string;
+  };
 }
 
 export interface PlayList {
@@ -15,18 +15,26 @@ export interface PlayList {
   songList: Song[];
 }
 
+export interface PlayListProps {
+  playlist: {
+    playlistName: string;
+    owner: string;
+    songList: Song[];
+  };
+}
+
 // Song 타입 정의
 export interface Song {
-  name: string; 
-  channelId: number; 
+  name: string;
+  channelId: number;
   channel: string;
   src: string;
   imageSrc: string;
 }
 
 export interface TopSong extends Song {
-  prevRank:number;
-  rank:number
+  prevRank: number;
+  rank: number;
 }
 
 // PlayListNav 컴포넌트의 props 타입 정의
@@ -63,5 +71,5 @@ export interface SongCardProps {
 }
 
 export interface GenrecardProps {
-  genre : string
+  genre: string;
 }
