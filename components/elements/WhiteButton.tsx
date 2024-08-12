@@ -3,12 +3,17 @@ import { cn } from "@/lib/utils";
 import React from "react";
 
 interface WhiteButtonProps {
-    icon: React.ReactElement;
-    label: string;
-    className: string;
+  icon: React.ReactElement;
+  label: string;
+  className?: string;
 }
 
-const WhiteButton = ({ icon, label, className, ...props }: WhiteButtonProps) => {
+const WhiteButton = ({
+  icon,
+  label,
+  className,
+  ...props
+}: WhiteButtonProps) => {
   return (
     <div
       className={cn(

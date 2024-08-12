@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import React from "react";
 
 interface DarkButtonProps {
-  icon: React.ReactElement;
+  icon?: React.ReactElement;
   label: string;
   className: string;
 }

@@ -43,7 +43,7 @@ export interface PlayListNavProps {
 }
 
 export interface BaseCarouselProps {
-  title: string;
+  title?: string;
   subTitle?: string;
   Thumbnail?: React.ReactNode;
 }
@@ -72,4 +72,7 @@ export interface SongCardProps {
 
 export interface GenrecardProps {
   genre: string;
+}
+export interface SongCardExpandProps {
+  song: Song;
 }

@@ -18,8 +18,8 @@ const page = async (props: PlayListPageProps) => {
       <PlayListHead playlist={playlist} />
       <div className="mt-12"></div>
       <section className="flex flex-col gap-2">
-        {playlist.songList.map((song, _) => {
-          return <SongCardRowExpand song={song} key={song} />;
+        {playlist.songList.map((song, idx) => {
+          return <SongCardRowExpand song={song} key={idx} />;
         })}
       </section>
     </PagePadding>
