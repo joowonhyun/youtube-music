@@ -1,5 +1,5 @@
 
-## 유튜브 뮤직 클론 코딩 (with TypeSciprt)
+## 유튜브 뮤직 클론 코딩 (with TypeScript)
 DEMO : https://youtube-music-gray.vercel.app/
 
 ## Tech Stack
