@@ -17,86 +17,86 @@ DEMO : https://youtube-music-gray.vercel.app/
 📦app
  ┣ 📂(site)
  ┃ ┣ 📂components
- ┃ ┃ ┗ 📜Category.tsx
- ┃ ┣ 📜error.tsx
- ┃ ┣ 📜layout.tsx
- ┃ ┣ 📜loading.tsx
- ┃ ┗ 📜page.tsx
+ ┃ ┃ ┗ Category.tsx
+ ┃ ┣ error.tsx
+ ┃ ┣ layout.tsx
+ ┃ ┣ loading.tsx
+ ┃ ┗ page.tsx
  ┣ 📂channel
  ┃ ┣ 📂[id]
- ┃ ┃ ┣ 📜error.tsx
- ┃ ┃ ┣ 📜layout.tsx
- ┃ ┃ ┣ 📜loading.tsx
- ┃ ┃ ┗ 📜page.tsx
+ ┃ ┃ ┣ error.tsx
+ ┃ ┃ ┣ layout.tsx
+ ┃ ┃ ┣ loading.tsx
+ ┃ ┃ ┗ page.tsx
  ┃ ┗ 📂components
- ┃ ┃ ┗ 📜ChanneHead.tsx
+ ┃ ┃ ┗ ChanneHead.tsx
  ┣ 📂explore
  ┃ ┣ 📂components
- ┃ ┃ ┗ 📜Category.tsx
- ┃ ┣ 📜error.tsx
- ┃ ┣ 📜layout.tsx
- ┃ ┣ 📜loading.tsx
- ┃ ┗ 📜page.tsx
+ ┃ ┃ ┗ Category.tsx
+ ┃ ┣ error.tsx
+ ┃ ┣ layout.tsx
+ ┃ ┣ loading.tsx
+ ┃ ┗ page.tsx
  ┣ 📂library
  ┃ ┣ 📂components
- ┃ ┃ ┗ 📜Category.tsx
- ┃ ┣ 📜error.tsx
- ┃ ┣ 📜layout.tsx
- ┃ ┣ 📜loading.tsx
- ┃ ┗ 📜page.tsx
+ ┃ ┃ ┗ Category.tsx
+ ┃ ┣ error.tsx
+ ┃ ┣ layout.tsx
+ ┃ ┣ loading.tsx
+ ┃ ┗ page.tsx
  ┣ 📂playlist
- ┃ ┣ 📜error.tsx
- ┃ ┣ 📜layout.tsx
- ┃ ┣ 📜loading.tsx
- ┃ ┗ 📜page.tsx
- ┣ 📜.DS_Store
- ┣ 📜error.tsx
- ┣ 📜favicon.ico
- ┣ 📜globals.css
- ┣ 📜layout.tsx
- ┗ 📜loading.tsx
+ ┃ ┣ error.tsx
+ ┃ ┣ layout.tsx
+ ┃ ┣ loading.tsx
+ ┃ ┗ page.tsx
+ ┣ .DS_Store
+ ┣ error.tsx
+ ┣ favicon.ico
+ ┣ globals.css
+ ┣ layout.tsx
+ ┗ loading.tsx
 
 📦components
  ┣ 📂elements
- ┃ ┣ 📜DarkButton.tsx
- ┃ ┣ 📜IconButton.tsx
- ┃ ┣ 📜Logo.tsx
- ┃ ┣ 📜Navigator.tsx
- ┃ ┣ 📜PlayListNav.tsx
- ┃ ┗ 📜WhiteButton.tsx
+ ┃ ┣ DarkButton.tsx
+ ┃ ┣ IconButton.tsx
+ ┃ ┣ Logo.tsx
+ ┃ ┣ Navigator.tsx
+ ┃ ┣ PlayListNav.tsx
+ ┃ ┗ WhiteButton.tsx
  ┣ 📂player
- ┃ ┣ 📜PlayerContent.tsx
- ┃ ┗ 📜PlayerWrapper.tsx
+ ┃ ┣ PlayerContent.tsx
+ ┃ ┗ PlayerWrapper.tsx
  ┣ 📂ui
- ┃ ┣ 📜avatar.tsx
- ┃ ┣ 📜button.tsx
- ┃ ┣ 📜carousel.tsx
- ┃ ┣ 📜drawer.tsx
- ┃ ┣ 📜dropdown-menu.tsx
- ┃ ┗ 📜playerSlider.tsx
- ┣ 📜ErrorMessage.tsx
- ┣ 📜GenreCard.tsx
- ┣ 📜GenreListCarousel.tsx
- ┣ 📜Header.tsx
- ┣ 📜HeaderBgChanger.tsx
- ┣ 📜LoadingBar.tsx
- ┣ 📜PagePadding.tsx
- ┣ 📜PlayListCard.tsx
- ┣ 📜PlayListCarousel.tsx
- ┣ 📜PlayListHead.tsx
- ┣ 📜Sidebar.tsx
- ┣ 📜SongCard.tsx
- ┣ 📜SongCardRowExpand.tsx
- ┣ 📜SongListCarousel.tsx
- ┣ 📜UserIcon.tsx
- ┗ 📜themeProvider.tsx
+ ┃ ┣ avatar.tsx
+ ┃ ┣ button.tsx
+ ┃ ┣ carousel.tsx
+ ┃ ┣ drawer.tsx
+ ┃ ┣ dropdown-menu.tsx
+ ┃ ┗ playerSlider.tsx
+ ┣ ErrorMessage.tsx
+ ┣ GenreCard.tsx
+ ┣ GenreListCarousel.tsx
+ ┣ Header.tsx
+ ┣ HeaderBgChanger.tsx
+ ┣ LoadingBar.tsx
+ ┣ PagePadding.tsx
+ ┣ PlayListCard.tsx
+ ┣ PlayListCarousel.tsx
+ ┣ PlayListHead.tsx
+ ┣ Sidebar.tsx
+ ┣ SongCard.tsx
+ ┣ SongCardRowExpand.tsx
+ ┣ SongListCarousel.tsx
+ ┣ UserIcon.tsx
+ ┗ themeProvider.tsx
 
 📦hooks
- ┣ 📜usePlayerState.ts
- ┗ 📜useUIState.ts
+ ┣ usePlayerState.ts
+ ┗ useUIState.ts
 
 📦types
- ┗ 📜index.ts
+ ┗ index.ts
 ```
 
 ## CONTENTS
