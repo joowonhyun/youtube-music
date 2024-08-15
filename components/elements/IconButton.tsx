@@ -6,7 +6,6 @@ interface IconProps {
   onClickIcon?: () => void;
 }
 const IconButton = ({ icon, onClickIcon }: IconProps) => {
-  const onClickMenu = () => {};
   return (
     <div
       onClick={onClickIcon}
